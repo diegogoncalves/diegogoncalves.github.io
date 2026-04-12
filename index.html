@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Useful Side Projects</title>
+    <meta
+      name="description"
+      content="A clean project hub for discovering practical side projects for travel, restaurant bills, and PM interview prep."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="./">Useful Side Projects</a>
+        <nav class="topnav">
+          <a href="#situations">Situations</a>
+          <a href="#projects">Projects</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Built for moments that get expensive, stressful, or unclear fast</p>
+            <h1>The right small tool at the right moment can save money, time, or a bad decision.</h1>
+            <p class="lede">
+              Whether you are splitting a trip bill, checking a restaurant tip,
+              trying to understand prices on a menu abroad, or practicing for a
+              PM interview, these projects are designed to help you act with
+              more clarity and less friction.
+            </p>
+            <a class="button primary" href="#situations">Find a project</a>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="panel-label">Start with the moment you are in</p>
+            <button class="hero-shortcut" type="button" data-filter-target="travel">
+              <span>Traveling with friends</span>
+              <small>Split costs or understand menu prices abroad</small>
+            </button>
+            <button class="hero-shortcut" type="button" data-filter-target="dining">
+              <span>Paying at a restaurant</span>
+              <small>Sanity-check the tip before you pay</small>
+            </button>
+            <button class="hero-shortcut" type="button" data-filter-target="career">
+              <span>Preparing for PM interviews</span>
+              <small>Practice answers and get instant feedback</small>
+            </button>
+          </aside>
+        </section>
+
+        <section class="chooser-section" id="situations">
+          <div class="section-intro">
+            <p class="eyebrow">Common situations</p>
+            <h2>If one of these sounds like you, there is a project here that can help.</h2>
+          </div>
+          <div class="filter-bar" id="filter-bar" aria-label="Filter projects by situation"></div>
+        </section>
+
+        <section class="projects-section" id="projects">
+          <div class="section-intro">
+            <p class="eyebrow">Projects</p>
+            <h2 id="projects-heading">All projects</h2>
+          </div>
+          <section class="project-grid" id="project-grid"></section>
+        </section>
+
+        <section class="closing">
+          <p>
+            Each project is built around a specific everyday frustration. Explore
+            the one that feels closest to what you are trying to solve.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
