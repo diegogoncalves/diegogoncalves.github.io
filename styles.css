@@ -146,8 +146,7 @@ button {
 
 .hero-panel,
 .filter-button,
-.project-card,
-.closing {
+.project-card {
   border: 1px solid var(--line);
   background: var(--panel);
   backdrop-filter: blur(16px);
@@ -384,19 +383,6 @@ button {
 
 .card-link:hover {
   text-decoration: underline;
-}
-
-.closing {
-  margin-top: 3rem;
-  padding: 1.2rem 1.3rem;
-  border-radius: 22px;
-}
-
-.closing p {
-  margin: 0;
-  max-width: 60ch;
-  color: var(--muted);
-  line-height: 1.7;
 }
 
 @media (max-width: 920px) {
