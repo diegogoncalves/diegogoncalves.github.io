@@ -4,7 +4,7 @@ export const siteMeta = {
   intro:
     "A single-page portfolio can work like a launch pad instead of a resume. These concepts focus on helping visitors understand what each project does, why it matters, and how to start using it fast.",
   audience:
-    "People who travel, eat out often, or want better interview prep should be able to find a project and use it in under a minute.",
+    "People who travel, eat out often, want better interview prep, or need an easy game night should be able to find a project and use it in under a minute.",
 };
 
 export const projects = [
@@ -115,6 +115,32 @@ export const projects = [
     ],
     hooks: ["Practice anytime", "Sharper feedback", "PM focused"],
     accent: "#a78bfa",
+  },
+  {
+    slug: "take5",
+    name: "Take 5 Card Game",
+    category: "Social game",
+    status: "Live",
+    url: "https://take5game.vercel.app/",
+    tagline: "Play Take Five online with friends and bots from any browser.",
+    summary:
+      "A fast, mobile-friendly browser version of Take 5 / 6 nimmt! built for private game rooms, quick invites, and low-friction play with friends, bots, or both.",
+    audience: "Small groups who want a quick private card game without accounts, installs, or setup.",
+    problem:
+      "Getting a casual card game started online can mean accounts, downloads, scheduling friction, or not having enough people for a full table.",
+    solution:
+      "Take 5 lets a host create a private room, share a short code or link, add bots when needed, and start a real-time game in seconds.",
+    howToUse: [
+      "Create a private room and choose 2-10 total players.",
+      "Share the room code or invite link with friends.",
+      "Add easy or medium bots, pick cards each round, and let the table resolve automatically.",
+    ],
+    features: [
+      "Play against your friends and bots",
+      "Real-time board updates, reveals, and rejoin support",
+    ],
+    hooks: ["No accounts", "Friend + bot seats", "Mobile-friendly"],
+    accent: "#22c55e",
   },
 ];
 

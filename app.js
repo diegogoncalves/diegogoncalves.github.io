@@ -36,6 +36,13 @@ const situations = [
     heading: "Projects for interview prep",
     matcher: (project) => project.slug === "interviewify",
   },
+  {
+    id: "game-night",
+    label: "Game night",
+    description: "For quick private games with friends and bots.",
+    heading: "Projects for game night",
+    matcher: (project) => project.slug === "take5",
+  },
 ];
 
 const filterBar = document.querySelector("#filter-bar");
@@ -61,6 +68,10 @@ const projectDetails = {
   interviewify: {
     bestFor: "Product managers who want to practice interview answers and get sharper feedback immediately.",
     useWhen: "Use it during interview prep when normal mock feedback is too inconsistent or too shallow to help.",
+  },
+  take5: {
+    bestFor: "Friends who want a quick private card game that works on phones, desktops, and mixed group sizes.",
+    useWhen: "Use it when you want an instant game night, only have a few people available, or need bots to fill the table.",
   },
 };
 
