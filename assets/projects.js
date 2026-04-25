@@ -12,7 +12,6 @@ export const projects = [
     slug: "freesplit",
     name: "FreeSplit",
     category: "Travel money",
-    status: "Live",
     url: "https://freesplit-drab.vercel.app/",
     tagline: "Split travel expenses without paying a monthly subscription.",
     summary:
@@ -39,7 +38,6 @@ export const projects = [
     slug: "tiphelper",
     name: "TipHelper",
     category: "Restaurant safety",
-    status: "Live",
     url: "https://tiphelper.vercel.app/",
     tagline: "Check tips quickly so you do not get overcharged at restaurants.",
     summary:
@@ -66,7 +64,6 @@ export const projects = [
     slug: "nomadprice",
     name: "NomadPrice",
     category: "Travel utility",
-    status: "Live",
     url: "https://nomad-price.vercel.app/",
     tagline: "Snap a menu abroad and instantly see dish prices in US dollars.",
     summary:
@@ -93,7 +90,6 @@ export const projects = [
     slug: "interviewify",
     name: "Interviewify",
     category: "Career prep",
-    status: "Live",
     url: "https://interviewifyfrontend.vercel.app/",
     tagline: "Practice PM interviews with AI and get immediate feedback.",
     summary:
@@ -120,7 +116,6 @@ export const projects = [
     slug: "take5",
     name: "Take 5 Card Game",
     category: "Social game",
-    status: "Live",
     url: "https://take5game.vercel.app/",
     tagline: "Play Take Five online with friends and bots from any browser.",
     summary:

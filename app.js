@@ -115,7 +115,6 @@ function renderProjects() {
               <p class="card-meta">${project.category}</p>
               <h3 class="card-title">${project.name}</h3>
             </div>
-            <span class="card-status">${project.status}</span>
           </div>
 
           <p class="card-tagline">${project.tagline}</p>

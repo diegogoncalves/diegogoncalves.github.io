@@ -63,8 +63,7 @@ button {
 .eyebrow,
 .panel-label,
 .filter-button,
-.card-meta,
-.card-status {
+.card-meta {
   font-family: "IBM Plex Mono", monospace;
 }
 
@@ -306,15 +305,6 @@ button {
   margin: 0;
   font-size: 1.45rem;
   letter-spacing: -0.03em;
-}
-
-.card-status {
-  padding: 0.35rem 0.6rem;
-  border-radius: 999px;
-  background: var(--chip);
-  color: var(--muted);
-  font-size: 0.72rem;
-  text-transform: uppercase;
 }
 
 .card-tagline {
