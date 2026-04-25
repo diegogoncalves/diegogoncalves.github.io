@@ -24,7 +24,7 @@ const situations = [
   },
   {
     id: "money",
-    label: "Sharing money",
+    label: "Sharing expenses",
     description: "For splitting and checking what people should pay.",
     heading: "Projects for money decisions",
     matcher: (project) => ["freesplit", "tiphelper"].includes(project.slug),
