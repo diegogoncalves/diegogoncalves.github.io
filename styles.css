@@ -50,32 +50,11 @@ button {
   padding-bottom: 4rem;
 }
 
-.topbar {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.2rem 0;
-}
-
-.topnav a,
 .eyebrow,
 .panel-label,
 .filter-button,
 .card-meta {
   font-family: "IBM Plex Mono", monospace;
-}
-
-.topnav {
-  display: flex;
-  gap: 1rem;
-}
-
-.topnav a {
-  font-size: 0.82rem;
-  color: var(--muted);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 .hero {
@@ -389,16 +368,8 @@ button {
     width: min(100% - 1rem, 1120px);
   }
 
-  .topbar {
-    display: none;
-  }
-
   .hero {
     padding-top: 1rem;
-  }
-
-  .topnav {
-    display: none;
   }
 
   .hero h1 {
