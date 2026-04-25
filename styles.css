@@ -52,26 +52,18 @@ button {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   gap: 1rem;
   padding: 1.2rem 0;
 }
 
-.brand,
 .topnav a,
 .eyebrow,
 .panel-label,
 .filter-button,
 .card-meta {
   font-family: "IBM Plex Mono", monospace;
-}
-
-.brand {
-  font-size: 0.84rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .topnav {
@@ -398,7 +390,7 @@ button {
   }
 
   .topbar {
-    padding: 0.9rem 0 0.35rem;
+    display: none;
   }
 
   .hero {
